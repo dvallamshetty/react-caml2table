@@ -13,7 +13,6 @@ build.rig.getTasks = function () {
   return result;
 };
 
-<<<<<<< HEAD
 // Fix issue with Monaco Editor
 build.configureWebpack.mergeConfig({
   additionalConfiguration: (generatedConfiguration) => {
@@ -36,6 +35,3 @@ build.configureWebpack.mergeConfig({
 });
 
 build.initialize(require('gulp'));
-=======
-build.initialize(require('gulp'));
->>>>>>> a58305c (Base)
