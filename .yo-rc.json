@@ -2,6 +2,7 @@
   "@microsoft/generator-sharepoint": {
     "plusBeta": false,
     "isCreatingSolution": true,
+<<<<<<< HEAD
     "version": "1.15.2",
     "libraryName": "caml-2-table",
     "libraryId": "200f7603-168b-484e-bc9b-941884b08097",
@@ -9,6 +10,20 @@
     "packageManager": "npm",
     "solutionName": "Caml2Table",
     "solutionShortDescription": "Caml2Table description",
+=======
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "caml-2-table",
+    "libraryId": "d53db52d-fa4f-474c-84c9-a5629a9742de",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "caml2Table",
+    "solutionShortDescription": "caml2Table description",
+>>>>>>> a58305c (Base)
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "webpart"

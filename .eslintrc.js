@@ -20,6 +20,7 @@ module.exports = {
         '@rushstack/security/no-unsafe-regexp': 1,
         // STANDARDIZED BY:   @typescript-eslint\eslint-plugin\dist\configs\recommended.json
         '@typescript-eslint/adjacent-overload-signatures': 1,
+<<<<<<< HEAD
         // STANDARDIZED BY:   @typescript-eslint\eslint-plugin\dist\configs\recommended.json
         //
         // CONFIGURATION:     By default, these are banned: String, Boolean, Number, Object, Symbol
@@ -53,6 +54,8 @@ module.exports = {
             }
           }
         ],
+=======
+>>>>>>> a58305c (Base)
         // RATIONALE:         Code is more readable when the type of every variable is immediately obvious.
         //                    Even if the compiler may be able to infer a type, this inference will be unavailable
         //                    to a person who is reviewing a GitHub diff.  This rule makes writing code harder,
@@ -118,7 +121,11 @@ module.exports = {
         //
         // STANDARDIZED BY:   @typescript-eslint\eslint-plugin\dist\configs\recommended.json
         // Set to 1 (warning) or 2 (error) to enable the rule
+<<<<<<< HEAD
         '@typescript-eslint/no-parameter-properties': 0,
+=======
+        '@typescript-eslint/parameter-properties': 0,
+>>>>>>> a58305c (Base)
         // RATIONALE:         When left in shipping code, unused variables often indicate a mistake.  Dead code
         //                    may impact performance.
         //
@@ -346,6 +353,7 @@ module.exports = {
         '**/test/*.ts',
         '**/test/*.tsx'
       ],
+<<<<<<< HEAD
       rules: {
         'no-new': 0,
         'class-name': 0,
@@ -373,6 +381,9 @@ module.exports = {
         'variable-name': 0,
         whitespace: 0
       }
+=======
+      rules: {}
+>>>>>>> a58305c (Base)
     }
   ]
 };

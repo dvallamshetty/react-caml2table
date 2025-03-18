@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "caml-2-table-client-side-solution",
+    "id": "d53db52d-fa4f-474c-84c9-a5629a9742de",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "caml2Table description"
+      },
+      "longDescription": {
+        "default": "caml2Table description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "caml-2-table Feature",
+        "description": "The feature that activates elements of the caml-2-table solution.",
+        "id": "ad54de5e-9693-4ee2-a836-59e925c8b90f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/caml-2-table.sppkg"
+  }
+}
